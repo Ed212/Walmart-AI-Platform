@@ -1,0 +1,42 @@
+[
+  {
+    "name": "GPT-4o",
+    "vendor": "OpenAI",
+    "latency_ms_p50": 420,
+    "cost_prompt_per_1k": 2.5,
+    "cost_completion_per_1k": 5.0,
+    "approved": true,
+    "modalities": "text,image,audio",
+    "notes": "Strong reasoning; good for agents"
+  },
+  {
+    "name": "Claude 3.5 Sonnet",
+    "vendor": "Anthropic",
+    "latency_ms_p50": 380,
+    "cost_prompt_per_1k": 3.0,
+    "cost_completion_per_1k": 15.0,
+    "approved": true,
+    "modalities": "text,image",
+    "notes": "Helpful, harmless, honest focus"
+  },
+  {
+    "name": "Llama 3.1 70B",
+    "vendor": "Meta",
+    "latency_ms_p50": 520,
+    "cost_prompt_per_1k": 0.8,
+    "cost_completion_per_1k": 0.8,
+    "approved": "Conditional",
+    "modalities": "text",
+    "notes": "Great for on-prem & finetune"
+  },
+  {
+    "name": "Mistral Large 2",
+    "vendor": "Mistral",
+    "latency_ms_p50": 410,
+    "cost_prompt_per_1k": 2.0,
+    "cost_completion_per_1k": 6.0,
+    "approved": true,
+    "modalities": "text",
+    "notes": "Solid code + routing candidate"
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "pii_detection": true,
+  "policy_blocks": [
+    "Self-harm",
+    "Hate",
+    "Harassment",
+    "Sexual content (minors)",
+    "Weapons"
+  ],
+  "language_filters": [
+    "SSN",
+    "Credit card",
+    "Phone number"
+  ],
+  "redaction_mode": "mask",
+  "hallucination_checks": {
+    "grounding_required": true,
+    "citation_required": true
+  }
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "app": "Seller Assistant",
+    "team": "Marketplace",
+    "date": "2025-09-20",
+    "tokens_in": 120000,
+    "tokens_out": 340000,
+    "cost_usd": 780.25,
+    "latency_ms_p50": 420,
+    "errors": 3
+  },
+  {
+    "app": "Shopper Assistant",
+    "team": "Ecomm Web",
+    "date": "2025-09-20",
+    "tokens_in": 220000,
+    "tokens_out": 540000,
+    "cost_usd": 1320.9,
+    "latency_ms_p50": 390,
+    "errors": 7
+  },
+  {
+    "app": "Catalog Enrichment",
+    "team": "Catalog",
+    "date": "2025-09-20",
+    "tokens_in": 980000,
+    "tokens_out": 1980000,
+    "cost_usd": 2880.1,
+    "latency_ms_p50": 510,
+    "errors": 12
+  },
+  {
+    "app": "Returns Agent",
+    "team": "CS",
+    "date": "2025-09-20",
+    "tokens_in": 310000,
+    "tokens_out": 880000,
+    "cost_usd": 1560.44,
+    "latency_ms_p50": 450,
+    "errors": 9
+  },
+  {
+    "app": "Seller Assistant",
+    "team": "Marketplace",
+    "date": "2025-09-27",
+    "tokens_in": 160000,
+    "tokens_out": 460000,
+    "cost_usd": 1050.4,
+    "latency_ms_p50": 400,
+    "errors": 1
+  },
+  {
+    "app": "Shopper Assistant",
+    "team": "Ecomm Web",
+    "date": "2025-09-27",
+    "tokens_in": 250000,
+    "tokens_out": 600000,
+    "cost_usd": 1490.75,
+    "latency_ms_p50": 370,
+    "errors": 4
+  },
+  {
+    "app": "Catalog Enrichment",
+    "team": "Catalog",
+    "date": "2025-09-27",
+    "tokens_in": 1200000,
+    "tokens_out": 2460000,
+    "cost_usd": 3515.0,
+    "latency_ms_p50": 500,
+    "errors": 10
+  },
+  {
+    "app": "Returns Agent",
+    "team": "CS",
+    "date": "2025-09-27",
+    "tokens_in": 360000,
+    "tokens_out": 990000,
+    "cost_usd": 1725.6,
+    "latency_ms_p50": 435,
+    "errors": 5
+  }
+]
