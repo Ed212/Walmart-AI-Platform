@@ -5,10 +5,12 @@
 
 ## Quickstart
 ```bash
-pip install streamlit pandas matplotlib
+pip install streamlit pandas matplotlib altair
 streamlit run app.py
 ```
 The app is multi-page; use the left sidebar or "Quick Links" on Home.
+
+> **Note:** The homepage uses custom HTML/CSS via `st.markdown(..., unsafe_allow_html=True)` to render the hero section and quick links. Make sure you're running on Streamlit 1.30+ so these elements render correctly instead of showing the raw HTML markup.
 
 ## Structure
 - `app.py` — Home dashboard
